@@ -1,0 +1,30 @@
+--- Minimum Stack Program ---
+Commands: push [num], pop, top, getMin, exit
+> push 5
+Pushed 5
+> push 2
+Pushed 2
+> push 7
+Pushed 7
+> getMin
+Minimum element: 2
+> top
+Top element: 7
+> pop
+Popped 7
+> getMin
+Minimum element: 2
+> top
+Top element: 2
+> pop
+Popped 2
+> getMin
+Minimum element: 5
+> pop
+Popped 5
+> pop
+Cannot pop from an empty stack.
+> getMin
+Stack is empty.
+> exit
+Exiting program.
